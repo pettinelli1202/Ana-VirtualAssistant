@@ -1,0 +1,25 @@
+@media only screen and (max-width: 420px) {
+    body {
+        overflow: hidden;
+    }
+
+    h1 {
+        margin: 4rem;
+    }
+
+    h2 {
+        margin: 2.5rem;
+    }
+
+    p {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1050px) {
+    .modal-content {
+        width: 70%;
+        height: 450px;
+    }
+}

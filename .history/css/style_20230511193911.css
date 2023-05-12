@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #4a00e0;
+    transition: all 2.5s ease-in-out;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    margin-top: 150px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 28pt;
+    margin: 80px;
+    font-family: 'Bruno Ace', cursive;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 40px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 8px solid #efefef;
+    margin: 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #2f2f2f;
+    text-align: center;
+    font-size: 14pt;
+    transition: 0.8s;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+    border: 10px solid #f2f2f2;
+    background-color: #ffffff;
+    font-weight: 600;
+    color: #a56262;
+}
+
+button:active {
+    border: 8px solid #ff4343;
+    background-color: #ff6868;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+
+#resultadoFala {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20pt;
+    color: #ffffff;
+    margin: 40px;
+}
+
+#ana-image {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+.modal-content {
+    font-family: 'Roboto', sans-serif;
+    color: #2f2f2f;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 300px;
+ border-radius: 10px 0;
+  }
+  .modal-content h2{
+    margin: 10px 0 20px 0;
+    padding: 20px 0;
+    border: 2px solid #d7d7d7;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    text-align: center;
+  }
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }

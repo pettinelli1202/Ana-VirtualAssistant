@@ -1,0 +1,10 @@
+@media only screen and (max-width: 420px) {
+    .modal-content {
+        width: 70%;
+        height: 420px;
+    }
+}
+@media only screen and (max-width: 1050px) {.modal-content {
+    width: 70%;
+    height: 550px;
+}}

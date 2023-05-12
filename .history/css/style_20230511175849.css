@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background: #4a00e0;
+   transition: all 2.5s ease-in-out;
+   color: #ffffff;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    margin-top: 150px;
+ 
+
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 28pt;
+    margin: 10px;
+    font-family: 'Bruno Ace', cursive;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 40px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 8px solid #efefef;
+    margin: 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #2f2f2f;
+    text-align: center;
+    font-size: 14pt;
+    transition: 0.8s;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+    border: 10px solid #f2f2f2;
+    background-color: #ffffff;
+    font-weight: 600;
+    color: #2f2f2f;
+}
+
+button:active {
+    border: 8px solid rgb(255, 67, 67);
+    background-color: rgb(255, 104, 104);
+    color: #ffffff;
+    font-weight: 400;
+}
+
+
+#resultadoFala {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20pt;
+    color: #ffffff;
+    margin: 40px;
+}
